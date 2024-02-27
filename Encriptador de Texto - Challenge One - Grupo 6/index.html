@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE ONE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Protest+Riot&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="encriptador-texto.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div>
+           <h1 ata-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">Encriptador de Texto</h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="bloque-uno">
+            <div class="div-textArea">
+                <textarea  id="textArea" placeholder="Escribe tu texto aqui" cols="30" rows="10"></textarea>
+                <i class="bi bi-exclamation-circle-fill white"></i>
+                <h3 class="advertencia">Solo letras minusculas y sin acentos</h3>
+            </div>
+
+           <div class="btn">
+                <button type="button" id="encriptador" onclick="encriptar()" >Encriptar</button>
+                <button type="button" id="desencriptar" onclick="desencriptar()"> Desencriptar</button>
+                <button type="button" id="borrar" onclick="borrar()">Borrar</button>
+            </div>
+        </section>
+
+        <section class="bloque-dos">
+            <div class="contenedor-imagen">
+                <img src="imagen/hacker.negro.png" id="imagen">
+            </div>
+            <div class="parrafo">
+               <h2 id="mensaje">Ningun mensaje fue encontrado</h2>
+               <textarea  id="textoende" placeholder="Ingresa el texto que desea encriptar o desencriptar" cols="30" rows="10"></textarea>
+               <button type="button" value="boton-copiar" id="boton-copiar" onclick="copy()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="creado">By sheilavazque500@gmail.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: "Protest Riot", sans-serif;
+
+}
+
+header {
+    background-color:#17120D;
+    width: 250%;
+    height: 80px;
+    color:#423025;
+    padding-left: 300px;
+    border-bottom: #685850 1px solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1{
+    text-shadow: 30px 30px 70px #423025;
+    color: #685850;
+    
+    
+}
+
+h1:hover {
+    color: #8d8480;
+    
+}
+
+.white{
+    
+    margin: 50%;
+    font-size: 1.5rem;
+    color:#253745;
+    
+}
+
+.advertencia{
+    text-align: center;
+    color: #4F493F;
+}
+
+.main {
+    width: 100%;
+    height: 700px;
+    background-color: #17120D;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: #423025 1px solid;
+}
+
+section {
+    height: 90%;
+    border-radius: 20px;
+    padding-right: 10px;
+
+}
+
+.bloque-uno{
+    
+    width: 60%;
+    background-color: #17120D;
+    margin-left: 20px;
+    margin-top: 40px;
+    -webkit-box-shadow: 0px 5px 26px 4px #423025;
+    
+    
+    
+}
+
+.div-textArea {
+    height: 80%;
+
+}
+
+#textArea{
+    width: 80%;
+    height: 70%;
+    display: block;
+    resize: none;
+    margin: auto;
+    background-color:  #685850;
+    color:#8d8480;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#textArea:hover{
+    border-color: 2px solid #8d8480;
+    color: #BEBBBA;
+    transform: scale(1.01);
+}
+
+.btn{
+    text-align: center;
+    font-size: 40px;
+}
+
+#encriptador{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color:  rgb(39, 39, 39);
+    color: #d2691e;
+    font-weight: 600;
+}
+
+#encriptador:hover{
+    border: 1px solid #423025;
+    transform: scale(1.05);
+    text-shadow: 0 0 5px #17120D;
+}
+
+#desencriptar{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color:  rgb(39, 39, 39);
+    color: #d2691e;
+    font-weight: 600;
+}
+
+#desencriptar:hover{
+    border: 1px solid #423025;
+    transform: scale(1.05);
+    text-shadow: 0 0 5px #17120D;
+}
+
+#borrar{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color:  rgb(39, 39, 39);
+    color: #d2691e;
+    font-weight: 600;
+}
+
+#borrar:hover{
+    border: 1px solid #423025;
+    transform: scale(1.05);
+    text-shadow: 0 0 5px #17120D;
+}
+
+.bloque-dos{
+    width: 30%;
+    background-color: #29343D;
+    margin-right: 20px;
+    margin-top: 40px;
+    -webkit-box-shadow: 0px 5px 26px 4px #4F493F;
+}
+
+.contenedor-imagen{
+    padding: 25px 15px 15px 25px;
+}
+
+#imagen{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#imagen:hover{
+    transform: scale(1.05);
+}
+
+.parrafo{
+    text-align: center;
+    color: #d2691e;
+    padding: 10px;
+}
+
+.parrafo p{
+    margin: 5px;
+}
+
+#mensaje{
+    text-shadow: 0 0 5px #253745;
+}
+
+#textoende{
+    width: 80%;
+    height: 5%;
+    resize: none;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    color:#423025;
+    background-color:  #685850;
+}
+
+#textoende:hover{
+    transform: scale(1.01)
+}
+
+#boton-copiar{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color:  #423025;
+    color: #17120D;
+    display: none;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 35%;
+    font-weight: 600;
+}
+
+#boton-copiar:hover{
+    border: 1px solid #685850;
+    transform: scale(1.05);
+    text-shadow: 0 0 5px #8d8480;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #423025;
+    color: #8d8480;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    box-sizing: content-box;
+}
+
+p{
+    text-decoration: none;
+    color: #8d8480;
+    text-shadow: 0 0 5px #BEBBBA;
+}
+
+p:hover{
+    text-shadow: 0 0;
+    transform: scale(1.05);
+    font-size: 21px;
+}
+
+@media screen and (min-width:360px) and (max-width:600px){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+
+    .bloque-dos{
+        width: 90%;
+        height: 40%;
+        margin-left: 14px;
+
+    }
+
+    .btn{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .boton-copiar{
+        width: 40px;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .bloque-uno{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .contenedor-imagen img{
+        height: 100%;
+        justify-content: center;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+}
